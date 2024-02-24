@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face{
+    src: url("./assets/Font/josephsophia/josephsophia.otf");
+    font-family: Logo;
+}
+*{
+    font-family: "PT Sans", sans-serif; 
+}
+.logo{
+    font-family: "Cormorant", serif;
+}
+.stories::-webkit-scrollbar{
+    display:none
+}
+.colorbg{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+.editProfile{
+    background:linear-gradient(to right bottom, rgb(217, 70, 239), rgb(220, 38, 38), rgb(251, 146, 60))
+}
+div.stories-scroll-container::-webkit-scrollbar{
+    display: none;
+}
+html{
+    overflow-x:hidden
+}
+html::-webkit-scrollbar{
+    display: none;
+}
